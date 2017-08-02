@@ -1,2 +1,3 @@
-# Ng-Lessons-Project
-A Git Hub repo of Angular 4 lessons
+# Ng Lessons Project
+
+A GitHub repo of Angular 4 lessons that emphasize both the GFM and Kramdown engines
