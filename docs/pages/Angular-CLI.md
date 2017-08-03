@@ -20,7 +20,7 @@ More to come ...
 
 ## Initialize Session Ruby
 
-From the base Terminal prompt ...
+From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
 ```liquid
 {% raw %}
@@ -30,7 +30,7 @@ rvm use 2.4.1
 
 ## Uninstall Angular CLI
 
-From the base Terminal prompt ...
+From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
 ```liquid
 {% raw %}
@@ -40,11 +40,55 @@ npm uninstall -g @angular/cli
 
 ## Re-Install Latest Version
 
-From the base Terminal prompt ...
+From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
 ```liquid
 {% raw %}
 npm install -g @angular/cli@latest
+{% endraw %}
+```
+
+## Check Version
+
+From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
+
+```liquid
+{% raw %}
+ng --version
+{% endraw %}
+```
+
+Returns ...
+
+```liquid
+{% raw %}
+    _                      _                 ____ _     ___
+   / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+  / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+ / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+/_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+               |___/
+@angular/cli: 1.2.6
+node: 7.7.4
+os: your machine operating system
+{% endraw %}
+```
+
+## Check Where Version Is Located Locally
+
+From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
+
+```liquid
+{% raw %}
+which ng
+{% endraw %}
+```
+
+Returns ...
+
+```liquid
+{% raw %}
+/usr/local/bin/ng
 {% endraw %}
 ```
 
@@ -60,4 +104,4 @@ More to come ...
 
 ***
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}
+**Source**: [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](https://www.ng-book.com/2){:target="_blank"}

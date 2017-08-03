@@ -24,7 +24,7 @@ More to come ...
 
 ```liquid
 {% raw %}
-[ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+[ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](https://www.ng-book.com/2){:target="_blank"}
 {% endraw %}
 ```
 
