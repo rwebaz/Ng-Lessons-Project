@@ -1,11 +1,15 @@
 ---
-title: Upgrade Angular CLI
+title: Angular CLI
 layout: default
 navigation_weight: 9
 ---
-# Ng How To Upgrade Angular CLI From The Terminal
+# Angular CLI
 
-Place the introducing line of text ie.) the 'tagline' here ...
+The **Angular CLI** is the Terminal engine of Angular 4.
+
+## Ng How To Upgrade Angular CLI From The Terminal
+
+More to come ...
 
 **Note**. As of npm ver 5.0, the npm cache self-heals from corruption issues and data extracted from the cache is guaranteed to be valid. Therefore, there is no need to use `npm cache clean` after performing the `uninstall` step below.
 
@@ -14,7 +18,7 @@ Place the introducing line of text ie.) the 'tagline' here ...
 - TOC
 {:toc}
 
-## Ruby
+## Initialize Session Ruby
 
 From the base Terminal prompt ...
 
@@ -24,7 +28,7 @@ rvm use 2.4.1
 {% endraw %}
 ```
 
-## Uninstall
+## Uninstall Angular CLI
 
 From the base Terminal prompt ...
 
@@ -34,7 +38,7 @@ npm uninstall -g @angular/cli
 {% endraw %}
 ```
 
-## Re-Install Latest
+## Re-Install Latest Version
 
 From the base Terminal prompt ...
 
@@ -44,7 +48,7 @@ npm install -g @angular/cli@latest
 {% endraw %}
 ```
 
-## The Code
+## Raw Code
 
 More to come ...
 
