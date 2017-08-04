@@ -28,17 +28,37 @@ More to come ...
 {% endraw %}
 ```
 
+### Angular 2 Succinctly
+
+1. **Source**: [Angular 2 Succinctly by Joseph Booth. Published by © 2017 Syncfusion.com](https://www.syncfusion.com/){:target="_blank"}
+
+```liquid
+{% raw %}
+[Angular 2 Succinctly by Joseph Booth. Published by © 2017 Syncfusion.com](https://www.syncfusion.com/){:target="_blank"}
+{% endraw %}
+```
+
+### Angular CLI Home Page
+
+1. **Source**: [Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
+
+```liquid
+{% raw %}
+[Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
+{% endraw %}
+```
+
 ## Next Category
 
 More to come ...
 
 ### New Title
 
-1. **Source**: [New Title. Published by © 2017 mminail.github.io](http://new-external-link.pdf){:target="_blank"}
+1. **Source**: [Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
 
 ```liquid
 {% raw %}
-Markdown - Liquid Hyperlink Code
+[Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
 {% endraw %}
 ```
 

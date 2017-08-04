@@ -9,16 +9,18 @@ The **Angular CLI** is the Terminal engine of Angular 4.
 
 ## Ng How To Upgrade Angular CLI From The Terminal
 
-More to come ...
+When installing globally, use the `-g` switch.
 
-**Note**. As of npm ver 5.0, the npm cache self-heals from corruption issues and data extracted from the cache is guaranteed to be valid. Therefore, there is no need to use `npm cache clean` after performing the `uninstall` step below.
+When installing locally, use the 
+
+
 
 ## Table O Contents
 
 - TOC
 {:toc}
 
-## Initialize Session Ruby
+## Set the Session Ruby
 
 From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
@@ -30,6 +32,8 @@ rvm use 2.4.1
 
 ## Uninstall Angular CLI
 
+First, uninstall any old versions of the Angular CLI.
+
 From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
 ```liquid
@@ -38,13 +42,17 @@ npm uninstall -g @angular/cli
 {% endraw %}
 ```
 
+**Note**. As of npm ver 5.0, the npm cache self-heals from corruption issues and data extracted from the cache is guaranteed ( by npm ) to be valid. Therefore, there is no need to use `npm cache clean` after performing the `uninstall` step above.
+
 ## Re-Install Latest Version
+
+Second, reinstall the latest version of the Angular CLI.
 
 From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
 ```liquid
 {% raw %}
-npm install -g @angular/cli@latest
+npm install -g @angular-cli@latest
 {% endraw %}
 ```
 
@@ -92,6 +100,34 @@ Returns ...
 {% endraw %}
 ```
 
+## Ng How To Install Angular CLI Locally
+
+From the **Finder** in Mac Os Sierra ...
+
+1. Right-click over the project folder of your Angular 4 Application
+1. CLICK **Services**
+1. SELECT new folder at Terminal.
+
+## Set the Session Ruby
+
+From the project Terminal prompt ... ( your-machine-name:ng-project-name your-root-directory$ )
+
+```liquid
+{% raw %}
+rvm use 2.4.1
+{% endraw %}
+```
+
+## Install the **Latest Version** of **Angular CLI** to your project
+
+From the project Terminal prompt ... ( your-machine-name:ng-project-name your-root-directory$ )
+
+```liquid
+{% raw %}
+npm install --save-dev @angular-cli@latest
+{% endraw %}
+```
+
 ## Raw Code
 
 More to come ...
@@ -104,4 +140,4 @@ More to come ...
 
 ***
 
-**Source**: [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](https://www.ng-book.com/2){:target="_blank"}
+**Source**: [Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
