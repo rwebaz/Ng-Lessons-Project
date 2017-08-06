@@ -3,11 +3,9 @@ title: Source Links
 layout: default
 navigation_weight: 9
 ---
-# Source Links
+# Source Links: Ng Lessons Project
 
-Please support the authors and publishers who aggregate the **Source Links** for the **Ng Lessons Project**.
-
-**Note**. Each **Live Link** is followed by the **Markdown - Liquid** code required to render the hyperlink.
+Place the introducing line of text ie.) the 'tagline' here ...
 
 ## Table O Contents
 
@@ -16,53 +14,97 @@ Please support the authors and publishers who aggregate the **Source Links** for
 
 ## Angular 4
 
-More to come ...
+Each of the following **Link Title** is followed by a short statement of critique, followed by a **Live Link**.
 
-### ng-book 2: The Complete Guide to Angular
+In turn, each of the following **Live Link** is also followed by **The Code** ( Markdown - Liquid ) required to render the hyperlink.
 
-1. **Source**: [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+### Angular CLI Home Page
+
+More to come ... Short statement of critique
+
+#### Live Link: Angular CLI Home Page
+
+1. **Source**: [Angular CLI Home Page](https://cli.angular.io). Published by © 2017 [Angular.io](https://www.angular.io){:target="_blank"}.
+
+#### The Code: Angular CLI Home Page
 
 ```liquid
 {% raw %}
-[ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](https://www.ng-book.com/2){:target="_blank"}
+[Angular CLI Home Page](https://cli.angular.io). Published by © 2017 [Angular.io](https://www.angular.io){:target="_blank"}.
+{% endraw %}
+```
+
+### ng-book 2: The Complete Guide to Angular
+
+More to come ... Short statement of critique
+
+#### Live Link: ng-book 2: The Complete Guide to Angular
+
+1. [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda](https://www.ng-book.com/2). Published by © 2017 [Fullstack.io](https://www.fullstack.io){:target="_blank"}.
+
+#### The Code: ng-book 2: The Complete Guide to Angular
+
+```liquid
+{% raw %}
+[ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda](https://www.ng-book.com/2). Published by © 2017 [Fullstack.io](https://www.fullstack.io){:target="_blank"}
 {% endraw %}
 ```
 
 ### Angular 2 Succinctly
 
-1. **Source**: [Angular 2 Succinctly by Joseph Booth. Published by © 2017 Syncfusion.com](https://www.syncfusion.com/){:target="_blank"}
+More to come ... Short statement of critique
+
+#### Live Link: Angular 2 Succinctly
+
+1. **Source**: [Angular 2 Succinctly by Joseph Booth](https://www.syncfusion.com/resources/techportal/details/ebooks/Angular2_Succinctly). Published by © 2017 [Syncfusion.com](https://www.syncfusion.com/){:target="_blank"}.
+
+#### The Code: Angular 2 Succinctly
 
 ```liquid
 {% raw %}
-[Angular 2 Succinctly by Joseph Booth. Published by © 2017 Syncfusion.com](https://www.syncfusion.com/){:target="_blank"}
+[Angular 2 Succinctly by Joseph Booth](https://www.syncfusion.com/resources/techportal/details/ebooks/Angular2_Succinctly). Published by © 2017 [Syncfusion.com](https://www.syncfusion.com/){:target="_blank"}.
 {% endraw %}
 ```
 
-### Angular CLI Home Page
+### Get Started With Angular
 
-1. **Source**: [Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
+More to come ... Short statement of critique
+
+#### Live Link: Get Started With Angular
+
+1. [Get Started With Angular by Martin Heller](https://){:target="_blank"}. Published by © 2017 [InfoWorld.com](https://www.infoworld.com){:target="_blank"}.
+
+#### The Code: Get Started With Angular
 
 ```liquid
 {% raw %}
-[Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
+[Get Started With Angular by Martin Heller](https://){:target="_blank"}. Published by © 2017 [InfoWorld.com](https://www.infoworld.com){:target="_blank"}
 {% endraw %}
 ```
 
 ## Next Category
 
-More to come ...
+**Note**. Each of the following **Link Title** is followed by a short statement of critique, followed by a **Live Link**. In turn, each of the following **Live Link** is also followed by **The Code** ( Markdown - Liquid ) required to render the hyperlink.
 
 ### New Title
 
-1. **Source**: [Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
+More to come ... Short statement of critique
+
+#### Live Link: New Title
+
+1. **Source**: [New Title by Author](http://mminail.github.io). Published by © 2017 [Mminail.github.io](http://mminail.github.io){:target="_blank"}.
+
+#### The Code: New Title
 
 ```liquid
 {% raw %}
-[Angular CLI Home Page by ... Published by © 2017 Google.io](https://cli.angular.io){:target="_blank"}
+[New Title by Author](http://mminail.github.io). Published by © 2017 [Mminail.github.io](http://mminail.github.io){:target="_blank"}.
 {% endraw %}
 ```
 
 ## Raw Code
+
+Place the introducing line of text ie.) the 'tagline' here ...
 
 ```liquid
 {% raw %}
@@ -70,6 +112,8 @@ More to come ...
 {% endraw %}
 ```
 
+**Note**. Please support the authors and publishers who aggregate the **Source Links** for our projects.
+
 ***
 
-**Source**: [Various Titles: See above](https://mminail.github.io){:target="_blank"}
+**Source**: [Zazzle Hempaz Project Source Links](https://rwebaz.github.io/Zazzle-Hempaz-Project/pages/Source-Links.html){:target="_self"}. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_self"}.
