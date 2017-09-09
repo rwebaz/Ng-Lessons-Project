@@ -26,6 +26,21 @@ More to come ... Short statement of critique
 
 1. **Source**: [Angular CLI Home Page](https://cli.angular.io). Published by © 2017 [Angular.io](https://www.angular.io){:target="_blank"}.
 
+## Angular 4 dupe
+
+More to come ...
+
+### ng-book 2: The Complete Guide to Angular dupe
+
+1. **Source**: [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+
+```liquid
+{% raw %}
+[ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+{% endraw %}
+```
+
+
 #### The Code: Angular CLI Home Page
 
 ```liquid
