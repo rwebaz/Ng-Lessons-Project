@@ -1,22 +1,23 @@
 # Site settings
 #
-# Date of this Update to Config-template file ver 07-29-2017
+# Date of this Update to Config-template file ver 12-10-2017
 #
 # github: [metadata]
 theme: "jekyll-theme-cayman"
-# repository: rwebaz/Ng-Lessons-Project
+# repository: https://www.github.com/rwebaz/Ng-Lessons-Project
 title: "Ng Lessons Project"
-tagline: "A GitHub repo of Angular 4 lessons that emphasize both the GFM and Kramdown engines"
-description: "A GitHub repo of Angular 4 lessons that emphasize both the GFM and Kramdown engines"
+tagline: "A GitHub repo of Angular lessons that emphasize the Ng CLI engine"
+description: "A GitHub repo of Angular lessons that emphasize both the GFM and Kramdown engines"
+twitter:
+    username: "mminail"
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"
-    github_username: "mminail"
-    twitter_username: "mminail"
-twitter:
-    username: "mminail"
-# The 'baseurl' is the subpath of your website, e.g. /blog
+    github_username: "rwebaz"
+    twitter_username: "rwebaz"
+# The 'baseurl' is the subpath of your website, e.g. /Liquid-Lessons-Project
 baseurl: "/Ng-Lessons-Project"
+# The 'url' is the parental web address of your designated project, e.g. /https://rwebaz.github.io
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
