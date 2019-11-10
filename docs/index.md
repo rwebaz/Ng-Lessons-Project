@@ -5,7 +5,7 @@ navigation_weight: 1
 ---
 # Ng Lessons Project Home Page
 
-{{ site.tagline }}
+{{ site.description }}
 
 ## Table O Contents
 
@@ -16,11 +16,11 @@ navigation_weight: 1
 
 **Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** ( if visible ) is an `( .svg )` image file set to the dimensions of 120.00 px X 120.00 px.
 
-## Issue
+## Issue Dtd 12-31-17
 
 The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
-Should it be, or should it not?
+Should it be, or should it not be?
 
 ### The Socratic Method
 
@@ -38,23 +38,7 @@ What is the current view as expressed by the majority of federal districts and s
 
 What is the minority view as expressed by the dissent?
 
-## Analysis
-
-The analysis reviews both sides of the legal coin in depth
-
-### The Code
-
-Highlight the code ...
-
-```liquid
-{% raw %}
-[Medcoin™ Crypto Currency Project: Ping-back Home Page](https://rwebaz.github.io/Medcoin-Crypto-Currency-Project/){:target="_blank"}
-{% endraw %}
-```
-
-### Live
-
-Render the code live ...
+{% include analysis-code-live.md %}
 
 ## Conclusion
 
@@ -68,10 +52,14 @@ Delineate the steps ...
 
 Expound the solution ...
 
+### Description
+
+{{ site.description }}
+
+{% include raw-code-anchors.md %}
+
 {% include sources-and-uses.md %}
 
 ### External Sources
 
-- The [Project Source Links](https://mminail.github.io/Ng/Source-Ng-Links.htm){:title="Click to Visit the Source Links page of the Ng Lessons Project at GitHub pages"}{:target="_blank"} page of the Ng Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-- {:#ROBERTSHILLER}[Narrative Economics in 2017 by Robert Shiller](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Visit Narrative Economics in 2017 by Robert Shiller"}{:target="_blank"}. Published by © 2017 [Yale.edu](https://cowles.yale.edu/){:title="Click to Visit Yale dot edu"}{:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Ng/Source-Ng-Links.htm){:title="Click to Visit the Source Links page of the Ng Lessons Project at GitHub pages"}{:target="_blank"} page of the Ng Lessons Project. Published by © 2000 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
