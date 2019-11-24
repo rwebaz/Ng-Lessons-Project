@@ -1,16 +1,20 @@
 ---
 title: Ng Source Links
 layout: default
-excerpt: Place the introducing line of text ie.) the 'lead' here ...
-version: Page Template md Dtd 11-10-19
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Nq-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
 categories: page
 ---
-## {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
+
+## First Subtitle
+
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ## Link Example
 
@@ -24,7 +28,15 @@ categories: page
 {% endraw %}
 ```
 
-### Raw Code Block
+### Raw Code Block html
+
+When using `fence code` with GitHub Flavored Markdown or **GFM**, no `raw` liquid statement is required.
+
+```html
+Enjoy the successful output!
+```
+
+### Raw Code Block liquid
 
 ```liquid
 {% raw %}
@@ -32,18 +44,16 @@ Enjoy the successful output!
 {% endraw %}
 ```
 
-{% include brackets-ide.md %}
+## Last Subtitle
 
-{% include sources-and-uses.md %}
+More to come ...
 
-### Inline References
+***
 
-1. [MMINAIL](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}. The MMINAIL is an acronym for the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-### External Sources
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Visit the pdf source"}{:target="_blank"}
 
-- [Project Source Links](https://rwebaz.github.io/Medcoin-Crypto-Currency-Project/pages/Source-Links.html){:title="Click to Visit the Source Links for the Medcoin Crypto Currency Project"}{:target="_blank"}. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
 
-**Note**. Please support the authors and publishers who aggregate the **Source Links** for our projects at [Patreon](https://www.patreon.com/MMINAIL){:title='Click to Visit the Landing page for our Patreon account'}{:target='_blank'}
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}

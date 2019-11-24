@@ -1,16 +1,20 @@
 ---
 title: Angular Directives
 layout: default
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Ng-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# Angular Directives
+{% include toc.md %}
 
-Place the introducing line of text ie.) the 'tagline' here ...
+## First Subtitle
 
-## Table O Contents
+> **Hint**. {{ page.hint }}
 
-- TOC
-{:toc}
+More to come ...
 
 ## ngModel
 
@@ -22,25 +26,9 @@ More to come ...
 {% endraw %}
 ```
 
-## *ngIf
+## ngIf
 
 More to come ...
-
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-
-## *ngFor
-
-More to come ...
-
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-
-## Raw Code
 
 ```liquid
 {% raw %}
@@ -48,6 +36,26 @@ More to come ...
 {% endraw %}
 ```
 
+## ngFor
+
+More to come ...
+
+```liquid
+{% raw %}
+`...`
+{% endraw %}
+```
+
+## Last Subtitle
+
+More to come ...
+
 ***
 
-**Source**: [Angular 2 Succinctly by Joseph Booth. Published by © 2017 Syncfusion.com](https://www.syncfusion.com/){:target="_blank"}
+**Note**. The above synopsis was derived from an article written by Joseph Booth [[1](#JOSEPHBOOTH){:.red}].
+
+1. {:#JOSEPHBOOTH}[Angular 2 Succinctly by Joseph Booth](https://www.syncfusion.com/){:title="Click to Visit Angular 2 Succinctly by Joseph Booth at Syncfusion dot com "}{:target="_blank"}
+
+***
+
+{% include patreon-link.md %}

@@ -1,17 +1,20 @@
 ---
 title: App Shell
 layout: default
-navigation_weight: 2
+excerpt: Angular applications tend to load late. To correct this anomaly, we must pre-render a part of your index page ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Ng-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# App Shell
-
-Angular applications tend to load late [[2](#AU){:.red}]. To correct this anomaly, we must *pre-render* a part of your index page.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Angular CLI
 
-To *pre-render* a part of the content of your new Angular app ...
+> **Hint**. {{ page.hint }}
+
+To *pre-render* a part of the content of your new Angular app [[2](#AU){:.red}] ...
 
 - From the local Terminal prompt `$` of your `app` directory
 
@@ -25,7 +28,11 @@ ng generate universal ngu-app-shell
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
+
+### Test Errata
+
+The following snippet of code renders a raw liquid tag ...
 
 ```liquid
 {% raw %}
@@ -33,10 +40,14 @@ test errata
 {% endraw %}
 ```
 
-{% include sources-and-uses.md %}
+***
 
-1. {:#AU}The [Angular App Shell by Vasco](https://www.angular-university.io){:title="Click to Visit Angular University Online"}{:target="_blank"}. Published by © 2017 [Angular-university.io](https://www.angular-university.io){:target="_blank"}.
+**Note**. The above synopsis was derived from an article written by Vasco [[1](#VASCO){:.red}].
 
-### External Sources
+1. {:#VASCO}[Angular App Shell by Vasco](https://www.angular-university.io){:title="Click to Visit Angular University Online"}{:target="_blank"}
 
-- The [Project Source Links](https://mminail.github.io/Ng/Source-Ng-Links.htm){:title="Click to Visit the Source Links page of the Ng Lessons Project at GitHub pages"}{:target="_blank"} page of the Ng Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+1. {:#AU}[Angular-university.io](https://www.angular-university.io){:title="Click to Visit the Angular University Online"}{:target="_blank"}.
+
+***
+
+{% include patreon-link.md %}
