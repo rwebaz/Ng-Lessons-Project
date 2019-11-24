@@ -1,20 +1,18 @@
 ---
 title: Source Links
 layout: default
-navigation_weight: 9
+excerpt: Each of the following Link Title is followed by a short statement of critique, followed by a Live Link ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Nq-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# Source Links: Ng Lessons Project
-
-Place the introducing line of text ie.) the 'tagline' here ...
-
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc.md %}
 
 ## Angular 4
 
-Each of the following **Link Title** is followed by a short statement of critique, followed by a **Live Link**.
+> **Hint**. {{ page.hint }}
 
 In turn, each of the following **Live Link** is also followed by **The Code** ( Markdown - Liquid ) required to render the hyperlink.
 
@@ -39,7 +37,6 @@ More to come ...
 [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
 {% endraw %}
 ```
-
 
 #### The Code: Angular CLI Home Page
 
@@ -117,18 +114,16 @@ More to come ... Short statement of critique
 {% endraw %}
 ```
 
-## Raw Code
+## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
-
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
-
-**Note**. Please support the authors and publishers who aggregate the **Source Links** for our projects.
+More to come ...
 
 ***
 
-**Source**: [Zazzle Hempaz Project Source Links](https://rwebaz.github.io/Zazzle-Hempaz-Project/pages/Source-Links.html){:target="_self"}. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_self"}.
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
+
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Visit the pdf source"}{:target="_blank"}
+
+***
+
+{% include patreon-link.md %}

@@ -1,13 +1,22 @@
 ---
 title: Node Serve App
 layout: default
-navigation_weight: 9
+excerpt: Angular Ng uses Node to serve and monitor your Angular 4 app for changes ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Nq-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# Node Serve App
+{% include toc.md %}
 
-Ng uses Node to serve and monitor your Angular 4 app for changes.
+## First Subtitle
 
-## How To Serve Angular 4 App To Browser Via Node
+> **Hint**. {{ page.hint }}
+
+More to come ...
+
+### How To Serve Angular 4 App To Browser Via Node
 
 From the **Integrated Terminal** prompt in **Visual Studio Code**
 
@@ -27,17 +36,16 @@ http://localhost:4200/
 {% endraw %}
 ```
 
-## Raw Code
+## Last Subtitle
 
 More to come ...
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+***
+
+**Note**. The above synopsis was derived from an article written by Nate Murray [[1](#NATEMURRAY){:.red}].
+
+1. {:#NATEMURRAY}[ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda](https://www.ng-book.com/2){:title="Click to Visit the pdf source at Fullstack dot io"}{:target="_blank"}
 
 ***
 
-**Source**: [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. Published by © 2017 Fullstack.io](https://www.ng-book.com/2){:target="_blank"}
-
+{% include patreon-link.md %}

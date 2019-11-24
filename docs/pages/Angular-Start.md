@@ -1,19 +1,22 @@
 ---
 title: Angular Start
 layout: default
-navigation_weight: 2
+excerpt: How to establish the Angular CLI in Mac Os High Sierra ...
+hint: Before we can operate on an Angular program it will be wise to ensure a couple of system variables are set properly.
+repo: Nq-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# Angular Start
-
-How to establish the Angular CLI in Mac Os High Sierra ...
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Terminal Preparation
 
-Before we can operate on an Angular program it will be wise to ensure a couple of system variables are set properly.
+> **Hint**. {{ page.hint }}
 
-### Global Ruby Version
+More to come ...
+
+## Global Ruby Version
 
 First, from an open global Terminal window pointing to your developer home directory ...
 
@@ -39,7 +42,7 @@ nvm use 8.9.2
 {% endraw %}
 ```
 
-**Note**. If you have not yet established a *Node Version Manager*, please do so now at [nvm](https://www.nvm.com){:title="Click to Visit the Node Version Manager"}{:target="_blank"} [[2](#RVM){:.red}].
+**Note**. If you have not yet established a *Node Version Manager*, please do so now at [nvm](https://www.nvm.com){:title="Click to Visit the Node Version Manager"}{:target="_blank"} [[4](#NVM){:.red}].
 
 ### Global Angular Version
 
@@ -180,24 +183,20 @@ Whereas, the default port for service and listening to Jekyll apps on your devel
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-test errata
-{% endraw %}
-```
+***
 
-{% include sources-and-uses.md %}
+**Note**. The above synopsis was derived from articles written by Martin Heller [[1](#MARTINHELLER){:.red}] and Kim Maida [[1](#KIMMAIDA){:.red}].
 
-1. {:#NVM}The [Node Version Manager](https://nvm.com){:title="Click to Visit the Node Version Manager"}{:target="_blank"}. Published by © 2017 [Nvm.io](https://nvm.io/){:title="Click to Visit the Node Version Manager"}{:target="_blank"}.
+1. {:#MARTINHELLER}[Get Started w Angular by Martin Heller](https://nvm.com){:title="Click to Visit the Get Started With Angular by Martin Heller"}{:target="_blank"}. Published by © 2017 [InfoWorld.com](https://cli.angular.io){:target="_blank"}.
+
+1. {:#KIMMAIDA}[Real-world Angular Series - Part One: MEAN Setup & Angular Architecture by Kim Maida](https://auth0.com/blog/real-world-angular-series-part-1/){:title="Click to Visit the Real-world Angular Series - Part One"}{:target="_blank"}. Published by © 2017 [Auth0.com](https://auth0.com/){:title="Click to Visit Auth Zero dot com"}{:target="_blank"}.
 
 1. {:#RVM}The [Ruby Version Manager](https://rvm.com){:title="Click to Visit the Ruby Version Manager"}{:target="_blank"}. Published by © 2017 [Rvm.io](https://rvm.io/){:title="Click to Visit the Ruby Version Manager"}{:target="_blank"}.
 
-### External Sources
+1. {:#NVM}The [Node Version Manager](https://nvm.com){:title="Click to Visit the Node Version Manager"}{:target="_blank"}. Published by © 2017 [Nvm.io](https://nvm.io/){:title="Click to Visit the Node Version Manager"}{:target="_blank"}.
 
-- The [Project Source Links](https://mminail.github.io/Ng/Source-Ng-Links.htm){:title="Click to Visit the Source Links page of the Ng Lessons Project at GitHub pages"}{:target="_blank"} page of the Ng Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
 
-- {:#MARTINHELLER}[Get Started w Angular by Martin Heller](https://nvm.com){:title="Click to Visit the Get Started With Angular by Martin Heller"}{:target="_blank"}. Published by © 2017 [InfoWorld.com](https://cli.angular.io){:target="_blank"}.
-
-- {:#KIMMAIDA}[Real-world Angular Series - Part One: MEAN Setup & Angular Architecture by Kim Maida](https://auth0.com/blog/real-world-angular-series-part-1/){:title="Click to Visit the Real-world Angular Series - Part One"}{:target="_blank"}. Published by © 2017 [Auth0.com](https://auth0.com/){:title="Click to Visit Auth Zero dot com"}{:target="_blank"}.
+{% include patreon-link.md %}

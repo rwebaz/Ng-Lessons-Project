@@ -1,18 +1,22 @@
 ---
 title: Package Manager
 layout: default
-navigation_weight: 9
+excerpt: Set the package manager for the Angular 4 project at the time of install ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Ng-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# Package Manager
+{% include toc.md %}
 
-Set the package manager for the Angular 4 project at the time of install.
+## First Subtitle
 
-## Table O Contents
+> **Hint**. {{ page.hint }}
 
-- TOC
-{:toc}
+More to come ...
 
-## Ng How To Set Package Manager For An Angular 4 App
+### Ng How To Set Package Manager For An Angular 4 App
 
 More to come ...
 
@@ -32,16 +36,16 @@ ng set --global packageManager=npm
 {% endraw %}
 ```
 
-## Raw Code
+## Last Subtitle
 
 More to come ...
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+***
+
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
+
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Visit the pdf source"}{:target="_blank"}
 
 ***
 
-**Source**: [The Set of Source Links For This Project](http://hyperlink-to-source-links.pdf){:target="_self"}
+{% include patreon-link.md %}

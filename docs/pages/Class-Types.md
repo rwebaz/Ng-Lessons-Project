@@ -1,28 +1,20 @@
 ---
 title: Class Types
 layout: default
-navigation_weight: 9
+excerpt: The difference between a Ng Plain Class and a Ng Component Class is simply one of complexity ...
+hint: A Ng Plain Class in Angular 4 consists of an export statement coupled with the name of the class followed by a Typescript style of variable declaration, both name and type, followed by a constructor statement.
+repo: Ng-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# Class Types
-
-The difference between an **Ng Plain Class** and an **Ng Component Class** is simply one of complexity.
-
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc.md %}
 
 ## Ng Plain Class
 
-An **Ng Plain Class** in Angular 4 consists of an `export` statement ...
+> **Hint**. {{ page.hint }}
 
-Coupled with the name of the `class` followed by ...
-
-The Typescript style of variable declaration ie.) both name and type,
-
-Followed by a `constructor` statement.
-
-**Note**. ¡Recuerde! Typescript classes are EXPORTED and the act of exportation exposes the declared variables ( by type ) as well as the methods of the underlying Typescript class to the other components within your Angular 4 application at large.
+¡Recuerde! Typescript classes are EXPORTED and the act of exportation exposes the declared variables ( by type ) as well as the methods of the underlying Typescript class to the other components within your Angular 4 application at large.
 
 ## Ng Component Class
 
@@ -96,20 +88,18 @@ Above the **Ng Component Class**, but below the **Ng Component Top Aggregate Imp
 
 **Note**. The Directive named 'Component' is decorated with three metadata sections as shown above ( selector, template, style ). In this case, the 'At' symbol, or `@` serves as the **Decorator Symbol**.
 
-## Raw Code
+## Last Subtitle
 
 More to come ...
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+***
+
+**Note**. The above synopsis was derived from articles written by Martin Heller [[1](#MARTINHELLER){:.red}] and Nate Murray [[2](#NATEMURRAY){:.red}].
+
+1. {:#MARTINHELLER}[Get Started With Angular by Martin Heller](https://www.infoworld.com){:title="Click to Visit the Get Started With Angular by Martin Heller pdf source"}{:target="_blank"}.
+
+1. [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda](https://www.ng-book.com/2){:title="Click to Visit the pdf source at Fullstack dot io"}.
 
 ***
 
-**Sources**:
-
-1. [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda]. Published by © 2017 [Fullstack.io](https://www.ng-book.com/2){:target="_blank"}.
-
-1. [Get Started With Angular by Martin Heller](https://){:target="_blank"}. Published by © 2017 [InfoWorld.com](https://www.infoworld.com){:target="_blank"}.
+{% include patreon-link.md %}
